@@ -1,0 +1,129 @@
+body {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #f5f7f6, #5ca0f2);
+  color: #D7D7EF;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+main {
+  padding-top: 100px;
+  height: 100%;
+  position: relative;
+}
+main .item-wrapper {
+  display: flex;
+  justify-content: center;
+}
+main .item-wrapper .iteam-container {
+  align-items: center;
+}
+main .item-wrapper .iteam-container .iteam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .item-wrapper .iteam-container .iteam .iteam-header {
+  display: flex;
+  color: #fff;
+  margin-bottom: 40px;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 75%;
+  align-items: flex-end;
+  position: relative;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-input-wrapper {
+  margin-bottom: 7%;
+  display: flex;
+  width: auto;
+  float: right;
+  padding-right: 10px;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-input-wrapper .iteam-lable {
+  padding-right: 10px;
+  color: #fff;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-input-wrapper .iteam-input {
+  border: 1px dashed #fff;
+  border-radius: 3px;
+  height: 30px;
+  min-width: 260px;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-input-wrapper .iteam-input:focus {
+  outline-color: #5ca0f2;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-file-drop-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  border: 1px dashed #fff;
+  border-radius: 3px;
+  transition: 0.2s;
+  margin-bottom: 7%;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-file-drop-area .iteam-choose-file-button {
+  flex-shrink: 0;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5ca0f2;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-file-drop-area .iteam-file-message {
+  color: #fff;
+  font-size: small;
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-file-drop-area .iteam-file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-form-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+  text-align: center;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-form-btn-wrapper .iteam-form-btn {
+  align-items: center;
+  display: flex;
+  max-width: 90px;
+  max-height: 40px;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  margin-right: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-form-btn-wrapper .iteam-form-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-form-btn-wrapper .iteam-form-btn:focus {
+  outline-color: transparent;
+}
+main .item-wrapper .iteam-container .iteam .iteam-form .iteam-form-btn-wrapper .iteam-form-btn:active {
+  color: gray;
+}

@@ -1,0 +1,21 @@
+footer {
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: #fff;
+}
+footer .footer-content {
+  justify-content: center;
+  display: flex;
+  width: auto;
+  align-items: center;
+  height: 100%;
+}
+footer .footer-content .footer-copyright {
+  color: #5ca0f2;
+}
+footer .footer-content .footer-link {
+  text-decoration: none;
+  color: #5ca0f2;
+}
